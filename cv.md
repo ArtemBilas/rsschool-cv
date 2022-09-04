@@ -40,3 +40,20 @@ I am 31 years old. The code is our everything, I also have a craving for new thi
 # Education
 - State University of Telecommunications, Faculty of Civil Engineering, Kyiv/Ukraine
 - Master's degree in radio and television broadcasting equipment.
+
+
+# Experience
+- **RemoteEmplouyees [3 months]**
+
+    **[FrontEnd Developer: React/Redux, SCSS modules, Firebase, Stripe]** - made small web application for restaurants in Cyprus for people from Europe and Africa, where you can check and order a celebration day and menu.
+
+
+- **Skynix [1.2 year]**
+
+    **[Magento 2 FrontEnd Developer]** - StyleS, logic, layouts, themes, admin panel - everything what you can do with Magento.
+
+
+# Languages
+- English [A2-B1]
+- Ukrainian [Native]
+- Russian [can speak]
