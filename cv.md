@@ -1,11 +1,11 @@
 # Bilas Artem
 
 # Contact Info:
-- Phone: +3 8050 380 38 11
-- Mail: [artembilas@gmail.com](artembilas@gmail.com)
-- LinkedIn: [Artem Bilas](https://www.linkedin.com/in/artem-bilas-b50905182/) 
-- GitHub: [ArtemBilas](https://github.com/ArtemBilas)
-- Telegram: [@BilasA](tg://user?id=412680518)
+- **Phone:** +3 8050 380 38 11
+- **Mail:** [artembilas@gmail.com](artembilas@gmail.com)
+- **LinkedIn:** [Artem Bilas](https://www.linkedin.com/in/artem-bilas-b50905182/) 
+- **GitHub:** [ArtemBilas](https://github.com/ArtemBilas)
+- **Telegram:** [@BilasA](tg://user?id=412680518)
 
 
 # About Me
