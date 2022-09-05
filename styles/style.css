@@ -29,6 +29,7 @@ body .wrapper .header {
 body .wrapper .header .info-container {
   padding: 10px 25px;
   background-color: rgba(255, 243, 107, 0.418);
+  border-radius: 5px;
 }
 body .wrapper .header .info-container .text-container {
   display: -webkit-box;
@@ -45,9 +46,6 @@ body .wrapper .header .info-container .text-container {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 10px 25px;
-  background: linear-gradient(to right, black 4px, transparent 4px) 0 0, linear-gradient(to left, black 4px, transparent 4px) 100% 100%, linear-gradient(to bottom, black 4px, transparent 4px) 0 0, linear-gradient(to top, black 4px, transparent 4px) 100% 100%;
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
 }
 body .wrapper .header .info-container .text-container .title,
 body .wrapper .header .info-container .text-container .sub-title {
@@ -58,9 +56,13 @@ body .wrapper .header .info-container .text-container .title {
 }
 body .wrapper .header .info-container .text-container .sub-title {
   font-weight: 500;
+  padding: 5px 10px;
+  background: linear-gradient(to right, rgb(19, 19, 19) 2px, transparent 2px) 0 0, linear-gradient(to right, rgb(19, 19, 19) 2px, transparent 2px) 0 100%, linear-gradient(to left, rgb(19, 19, 19) 2px, transparent 2px) 100% 0, linear-gradient(to left, rgb(19, 19, 19) 2px, transparent 2px) 100% 100%, linear-gradient(to bottom, rgb(19, 19, 19) 2px, transparent 2px) 0 0, linear-gradient(to bottom, rgb(19, 19, 19) 2px, transparent 2px) 100% 0, linear-gradient(to top, rgb(19, 19, 19) 2px, transparent 2px) 0 100%, linear-gradient(to top, rgb(19, 19, 19) 2px, transparent 2px) 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
 }
 body .wrapper .header .info-container .image-container {
-  margin-top: 50px;
+  margin-top: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -74,8 +76,6 @@ body .wrapper .header .info-container .image-container {
   width: 100%;
   max-height: 300px;
   height: 100%;
-  border-radius: 0 50% 50%;
-  border: 15px solid rgb(19, 19, 19);
 }
 body .wrapper .header .info-container .image-container .image-item {
   width: 100%;

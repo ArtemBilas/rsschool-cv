@@ -16,17 +16,21 @@ $black-color: rgb(19, 19, 19);
 
 @mixin corner-border {
     background:
-    linear-gradient(to right, black 4px, transparent 4px) 0 0,
-    // linear-gradient(to right, black 4px, transparent 4px) 0 100%,
-    // linear-gradient(to left, black 4px, transparent 4px) 100% 0,
-    linear-gradient(to left, black 4px, transparent 4px) 100% 100%,
-    linear-gradient(to bottom, black 4px, transparent 4px) 0 0,
-    // linear-gradient(to bottom, black 4px, transparent 4px) 100% 0,
-    // linear-gradient(to top, black 4px, transparent 4px) 0 100%,
-    linear-gradient(to top, black 4px, transparent 4px) 100% 100%;
+    linear-gradient(to right, $black-color 2px, transparent 2px) 0 0,
+
+    linear-gradient(to right, $black-color 2px, transparent 2px) 0 100%,
+    linear-gradient(to left, $black-color 2px, transparent 2px) 100% 0,
+
+    linear-gradient(to left, $black-color 2px, transparent 2px) 100% 100%,
+    linear-gradient(to bottom, $black-color 2px, transparent 2px) 0 0,
+
+    linear-gradient(to bottom, $black-color 2px, transparent 2px) 100% 0,
+    linear-gradient(to top, $black-color 2px, transparent 2px) 0 100%,
+
+    linear-gradient(to top, $black-color 2px, transparent 2px) 100% 100%;
 
     background-repeat: no-repeat;
-    background-size: 20px 20px;
+    background-size: 10px 10px;
 }
 
 
@@ -46,6 +50,7 @@ body{
             .info-container{
                 padding: 10px 25px;
                 background-color: $yellow-color;
+                border-radius: 5px;
 
                 .text-container{
                     display: flex;
@@ -53,7 +58,6 @@ body{
                     align-items: center;
                     justify-content: center;
                     padding: 10px 25px;
-                    @include corner-border();
 
                     .title, 
                     .sub-title{
@@ -64,12 +68,14 @@ body{
                     }
                     .sub-title{
                         font-weight: 500;
+                        padding: 5px 10px;
+                        @include corner-border();
                     }
                 }
             
 
                 .image-container{
-                    margin-top: 50px;
+                    margin-top: 25px;
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -77,8 +83,6 @@ body{
                     width: 100%;
                     max-height: 300px;
                     height: 100%;
-                    border-radius: 0 50%  50%;
-                    border: 15px solid $black-color;
 
                     .image-item{
                         width: 100%;
