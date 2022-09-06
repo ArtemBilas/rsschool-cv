@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/39ac89b54b.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
     <title>CV-Html</title>
 </head>
@@ -13,17 +14,6 @@
 <body>
     <section class="wrapper">
         <header class="header">
-            <section class="info-container">
-                <div class="text-container">
-                    <h1 class="title">Artem Bilas</h1>
-                    <h4 class="sub-title">Front End Developer</h4>
-                </div>
-                
-                <div class="image-container">
-                    <img class="image-item" src="assets/images/me.jpg" alt="image-me">
-                </div>
-            </section>
-
             <nav class="navigation">
                 <ul class="nav-list">
                     <li class="nav-item">
@@ -44,9 +34,116 @@
                 </ul>
             </nav>
         </header>
-        <main class="main">
 
+        <main class="main">
+            <section class="content-wrapper">
+                <section class="info-container">
+                    <div class="text-container">
+                        <h1 class="title">Artem Bilas</h1>
+                        <h4 class="sub-title">Front End Developer</h4>
+                    </div>
+
+                    <div class="image-container">
+                        <img class="image-item" src="assets/images/me.jpg" alt="image-me">
+                    </div>
+
+                </section>
+
+                <section class="content-container">
+                    <section class="contacts">
+                        <h2 class="contacts-title">Contacts:</h2>
+
+                        <section class="contacts-container">
+                            <p class="contact-item">
+                                <a class="link-item mail-icon" href="mailto:artembilas@gmail.com">
+                                    <img class="image-item" src="assets/images/mail-svgrepo-com.svg" alt="mail-img">
+                                </a>
+                            </p>
+
+                            <p class="contact-item">
+                                <a class="link-item linkedin-icon"
+                                    href="https://www.linkedin.com/in/artem-bilas-b50905182/">
+                                    <img class="image-item" src="assets/images/linkedin-svgrepo-com-1.svg"
+                                        alt="linkedin-img">
+                                </a>
+                            </p>
+
+                            <p class="contact-item github-icon">
+                                <a class="link-item" href="https://github.com/ArtemBilas">
+                                    <img class="image-item" src="assets/images/github-svgrepo-com.svg" alt="github-img">
+                                </a>
+                            </p>
+
+                            <p class="contact-item">
+                                <a class="link-item telegram-icon" href="tg://user?id=412680518">
+                                    <img class="image-item" src="assets/images/telegram-svgrepo-com.svg" alt="">
+                                </a>
+                            </p>
+                        </section>
+                    </section>
+
+                    <section class="about-me">
+                        <h3 class="title">About Me:</h3>
+                        <p class="text-item">I am 31 years old. The code is our everything, I also have a craving for
+                            new things and knowledge. In my free time, I like to read or walk. From the experience I
+                            already have, I can say that there is no such thing as a lot of knowledge. A team player,
+                            responsible, it happens that I use more time to fully understand what and how it works.</p>
+                    </section>
+
+                    <section class="skills">
+                        <h4>Skills:</h4>
+                        <ul class="skill-list">
+                            <li class="list-item">HTML</li>
+                            <li class="list-item">CSS [SCSS/SASS/LESS, Bootstrap5]</li>
+                            <li class="list-item">JS [Fundamentals, ES5+, DOM]</li>
+                            <li class="list-item">React/Redux</li>
+                        </ul>
+
+                        <ul class="skill-list">
+                            <li class="list-item">Magento 2[FrontEnd stuff, layouts, theme, styles, logic]</li>
+                            <li class="list-item">Git</li>
+                            <li class="list-item">Webpack</li>
+                            <li class="list-item">Jira/Click Up</li>
+                        </ul>
+                    </section>
+
+                    <section class="education">
+                        <h4 class="title">Education</h4>
+                        <div class="text-content">
+                            <p class="text-item">State University of Telecommunications, Faculty of Civil Engineering, Kyiv/Ukraine</p>
+                            <p class="text-item">Master`s degree in radio and television broadcasting equipment.</p>
+                        </div>
+                    </section>
+
+                    <section class="experience">
+                        <h4 class="title">Experience</h4>
+                        <div class="text-content">
+                            <p class="text-item">RemoteEmplouyees [3 months]</p>
+                            <p class="text-item">
+                                [FrontEnd Developer: React/Redux, SCSS modules, Firebase, Stripe] - sally.app small web application for restaurants in Cyprus for people from Europe and Africa, where you can check and order a celebration day and menu.
+                            </p>
+                        </div>
+
+                        <div class="text-content">
+                            <p class="text-item">Skynix [1.2 year]</p>
+                            <p class="text-item">
+                                [Magento 2 FrontEnd Developer] - Styles, logic, layouts, themes, admin panel - everything what you can do with Magento.
+                            </p>
+                        </div>
+                    </section>
+
+                    <section class="languages">
+                        <p class="title">Languages</p>
+                        <ul class="language-list">
+                            <li class="list-item">English [A2-B1]</li>
+                            <li class="list-item">Ukrainian [Native]</li>
+                            <li class="list-item">Russian [can speak]</li>
+                        </ul>
+                    </section>
+                </section>
+            </section>
         </main>
+
         <footer class="footer">
 
         </footer>
