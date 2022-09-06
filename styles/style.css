@@ -39,7 +39,7 @@ body .wrapper .header .info-container {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  max-width: 25%;
+  max-width: 320px;
   width: 100%;
   padding-bottom: 15px;
   margin-bottom: 50px;
@@ -308,4 +308,13 @@ body .wrapper .footer .contacts .contacts-container .contact-item .link-item .im
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+@media screen and (max-width: 700px) {
+  .wrapper .main .content-container .skills .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }

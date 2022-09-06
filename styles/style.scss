@@ -54,7 +54,8 @@ body {
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
-                max-width: 25%;
+                max-width: 320px;
+                // max-width: 25%;
                 width: 100%;
                 padding-bottom: 15px;
                 margin-bottom: 50px;
@@ -307,3 +308,17 @@ body {
         }
     }
 }
+
+@media  screen and (max-width: 700px) {
+    .wrapper{
+        .main{
+            .content-container{
+                .skills{
+                    .container{
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+    }
+}   
