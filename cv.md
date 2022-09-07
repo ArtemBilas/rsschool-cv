@@ -50,7 +50,7 @@ I am 31 years old. The code is our everything, I also have a craving for new thi
 
 - **Skynix [1.2 year]**
 
-    **[Magento 2 FrontEnd Developer]** - Styles, logic, layouts, themes, admin panel - everything what you can do with Magento.
+    **[Magento 2 FrontEnd Developer]** - Styles, logic, layouts, themes, work with admin panel.
 
 
 # Languages
